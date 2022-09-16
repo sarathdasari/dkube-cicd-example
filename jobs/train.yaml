@@ -29,7 +29,7 @@ parameters:
     hyperparams:
       customkv:
         - key: EPOCHS
-          value: '1'
+          value: '10'
       file:
         name: ''
         body: ''
