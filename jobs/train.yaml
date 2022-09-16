@@ -11,7 +11,7 @@ parameters:
           choice: tensorflow
           details:
             version: 2.0.0
-            image: 'ocdr/dkube-datascience-tf-cpu:v2.0.0-16'
+            image: 'ocdr/dkube-datascience-tf-gpu:v2.0.0-16'
     datums:
       workspace:
         data:
@@ -34,7 +34,7 @@ parameters:
         name: ''
         body: ''
     nworkers: 0
-    ngpus: 0
+    ngpus: 1
     gpus_override: false
     rdma: false
     hptuning:
